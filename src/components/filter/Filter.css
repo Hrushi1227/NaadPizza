@@ -1,0 +1,21 @@
+.filterMainContainer{
+    margin-right: 20px;
+    background-color: #edede9;
+    max-width: 300px;
+    min-width: 200px;
+    max-height: 100%;
+}
+.Mainheader{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.formOuter{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-bottom: 10px;
+}

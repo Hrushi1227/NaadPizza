@@ -1,0 +1,47 @@
+.main{
+    display: flex;
+    flex-direction: row;
+}
+.card {
+    border-top: 6px solid #1abc9c;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px #ddd;
+    margin-bottom: 1rem;
+    max-width: 300px;
+    padding: 1rem 0;
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.pizzaTitle{
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+.pizzaImage{
+    max-width: 300px;
+    max-height: 200px;
+    padding: 10px;
+}
+
+.sizeAndQty{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    padding: 1rem 0;
+}
+.pizzaSize{
+    margin: 20px;
+}
+.pizzaQuantity{
+    margin: 20px;
+}
+.prmbtn{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 20px;
+}
+.button{
+    background-color: #457b9d;
+    cursor: pointer;
+}
